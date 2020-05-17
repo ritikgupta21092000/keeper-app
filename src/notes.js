@@ -25,12 +25,6 @@ const notes = [
     },
     {
       key: 5,
-      title: "AI vs ML",
-      content:
-        "What is the difference between Artificial intelligence and Machine Learning"
-    },
-    {
-      key: 6,
       title: "Youtube vs TikTok",
       content:
       "Youtube is best"
