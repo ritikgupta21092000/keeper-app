@@ -31,6 +31,7 @@ function CreateArea(props) {
           onClick={(event) => {
             {
               props.onAdd(event, note);
+              setNote({ title: "", content: "" });
             }
           }}
         >

@@ -16,6 +16,14 @@ function App() {
     event.preventDefault();
   }
 
+  function deleteNotes(id) {
+    setItemArray((prevItem) => {
+      return itemArray.filter((item, index) => {
+        return id !== index;
+      });
+    });
+  }
+
   return (
     <div>
       <Header />
@@ -26,6 +34,7 @@ function App() {
           id={index}
           title={item.title}
           content={item.content}
+          deleteNote={deleteNotes}
         />
       ))}
 
