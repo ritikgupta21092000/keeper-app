@@ -1,4 +1,5 @@
 {
+  "homepage": "http://ritikgupta21092000.github.io/keeper-app",
   "name": "keeper-app-part-1-starting",
   "version": "1.0.0",
   "description": "",
@@ -12,6 +13,7 @@
     "react-scripts": "3.2.0"
   },
   "devDependencies": {
+    "gh-pages": "^3.0.0",
     "typescript": "3.3.3"
   },
   "scripts": {
